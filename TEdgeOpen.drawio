@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T02:55:30.410Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="WMTusvFPahep4Cv4cr3U" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-23T03:19:01.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="EmNULRWw3uP8-bGV-NCm" version="14.7.1" type="github">
   <diagram id="WCi7_zUk8PVfGA9pqiaB" name="第 1 页">
     <mxGraphModel dx="1426" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,12 +27,12 @@
         <mxCell id="-f18atw8MDqrpqRsVewe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=100;entryDy=70;entryPerimeter=0;fontFamily=Garamond;fontSize=13;" edge="1" parent="1" source="-f18atw8MDqrpqRsVewe-14" target="-f18atw8MDqrpqRsVewe-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="315" y="430" />
+              <mxPoint x="375" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-14" value="HTTP &amp;amp; Cluster" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="290" y="260" width="50" height="50" as="geometry" />
+          <mxGeometry x="350" y="260" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-15" value="接口路由" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="170" y="260" width="50" height="50" as="geometry" />
@@ -49,7 +49,7 @@
         <mxCell id="-f18atw8MDqrpqRsVewe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-f18atw8MDqrpqRsVewe-19" target="-f18atw8MDqrpqRsVewe-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="375" y="435" />
+              <mxPoint x="435" y="435" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -59,9 +59,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-19" value="Redis服务发现" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="350" y="260" width="50" height="50" as="geometry" />
+          <mxGeometry x="410" y="260" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="-f18atw8MDqrpqRsVewe-20" value="Dubbo协议" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="-f18atw8MDqrpqRsVewe-20" value="本地化配置" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="230" y="260" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-21" value="" style="endArrow=none;html=1;" edge="1" parent="1">
@@ -97,13 +97,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-24" value="目前采用最简单负载策略，同类服务器也可能只有单台" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Garamond;" vertex="1" parent="1">
-          <mxGeometry x="110" y="360" width="100" height="110" as="geometry" />
+          <mxGeometry x="150" y="360" width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-26" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="470" y="395" width="60" height="80" as="geometry" />
+          <mxGeometry x="520" y="400" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-f18atw8MDqrpqRsVewe-31" value="TEdgeOpen网关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="250" y="130" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-f18atw8MDqrpqRsVewe-34" value="Dubbo协议" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
