@@ -1,1 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2021-08-17T03:09:38.279Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="14.9.6" etag="umXEvLbs7xTgVNCYs4hB" type="github"><diagram id="3FfFOJCZl11-B_zmlOlF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-17T03:49:16.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="g-nkAB3bY73Wu1EAGsKX" version="14.9.6" type="github">
+  <diagram id="3FfFOJCZl11-B_zmlOlF" name="第 1 页">
+    <mxGraphModel dx="946" dy="569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-CqHtqx3l0VWwSIiYw4T-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-CqHtqx3l0VWwSIiYw4T-1" target="-CqHtqx3l0VWwSIiYw4T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-CqHtqx3l0VWwSIiYw4T-4" value="highway捕获后输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-CqHtqx3l0VWwSIiYw4T-3">
+          <mxGeometry x="-0.4288" y="4" relative="1" as="geometry">
+            <mxPoint x="31" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-CqHtqx3l0VWwSIiYw4T-1" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;timestamp&quot;:1629088386222,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;status&quot;:500,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;error&quot;:&quot;Internal Server Error&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;exception&quot;:&quot;com.tuya.basic.client.domain.exception.BaseException&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;message&quot;:&quot;No message available&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&quot;path&quot;:&quot;/v1.0/idaas/spaces/1628778023083/accounts/actions/login&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="159" width="385" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="-CqHtqx3l0VWwSIiYw4T-2" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;code&quot;: 502,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;msg&quot;: &quot;Internal Server Error&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;success&quot;: false,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;t&quot;: 1628582699999&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="622" y="173.75" width="186" height="96.25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
