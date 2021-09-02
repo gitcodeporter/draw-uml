@@ -1,11 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T02:33:17.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="N3QEthQYaUmjhgfVK4vN" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T02:44:02.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="cC8lp-_JdsqlHIlsLsxd" version="14.9.7" type="github">
   <diagram id="M-qKC3qr806KLWmZ0Jch" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-1" target="0nwmMuTyDeL7QVPxEyri-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-4" value="创建、删除、管理" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-1" target="0nwmMuTyDeL7QVPxEyri-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="295" />
+              <mxPoint x="224" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=-0.052;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-1" target="0nwmMuTyDeL7QVPxEyri-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="166" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-19" value="执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0nwmMuTyDeL7QVPxEyri-18">
+          <mxGeometry x="0.1676" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-1" value="master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="77" y="247" width="89" height="55" as="geometry" />
@@ -13,23 +30,34 @@
         <mxCell id="0nwmMuTyDeL7QVPxEyri-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-7">
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-8">
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-2" value="sigmad" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="273" y="248" width="86" height="53" as="geometry" />
+          <mxGeometry x="316.5" y="243" width="86" height="53" as="geometry" />
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-3" value="apiserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="248" width="86" height="53" as="geometry" />
+          <mxGeometry x="509.5" y="243" width="86" height="53" as="geometry" />
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-7" value="timewheel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="231" y="396" width="69" height="69" as="geometry" />
+          <mxGeometry x="273" y="397" width="69" height="69" as="geometry" />
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-8" value="timewheel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="313" y="396" width="69" height="69" as="geometry" />
+          <mxGeometry x="386" y="397" width="69" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-11" target="0nwmMuTyDeL7QVPxEyri-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-14" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0nwmMuTyDeL7QVPxEyri-12">
+          <mxGeometry x="-0.122" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-11" value="管控台执行指令：&lt;br&gt;&lt;br&gt;remove-timewheel&lt;br&gt;&lt;br&gt;transfer-timewheel&lt;br&gt;&lt;br&gt;transfer-jobs" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="4.5" y="58" width="234" height="107" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
