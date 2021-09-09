@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T03:26:30.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ZefkLe5dk86xHog3f3H8" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T03:29:40.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="XFINSen4lNIyr9m_BxXr" version="14.9.7" type="github">
   <diagram id="M-qKC3qr806KLWmZ0Jch" name="第 1 页">
     <mxGraphModel dx="2626" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -68,6 +68,14 @@
               <mxPoint x="63" y="200" />
               <mxPoint x="63" y="200" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-112" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;fontSize=12;fontColor=#007FFF;startArrow=none;startFill=0;strokeColor=#000000;exitX=0.96;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-2" target="0nwmMuTyDeL7QVPxEyri-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0nwmMuTyDeL7QVPxEyri-113" value="GET /&amp;nbsp; DELETE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=35;" vertex="1" connectable="0" parent="0nwmMuTyDeL7QVPxEyri-112">
+          <mxGeometry x="0.1828" y="40" relative="1" as="geometry">
+            <mxPoint x="7" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-2" value="sigmad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
