@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T09:38:55.910Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" version="14.9.7" etag="h6ZMsAWDVcUocXfAhmvX" type="github"><diagram id="6a4WZI5h0yro_Zh4rNZj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-09T10:05:37.748Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="yTZ5jT6_Fjm-p4r2jiId" version="14.9.7" type="github">
+  <diagram id="6a4WZI5h0yro_Zh4rNZj" name="第 1 页">
+    <mxGraphModel dx="1426" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-137" value="Stat位组成部分" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-138" value="63-56（状态域）" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry y="40" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-139" value="7&lt;br&gt;&lt;br&gt;任务是否禁用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-140" value="6&lt;br&gt;&lt;br&gt;是否cron任务" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-141" value="3&lt;br&gt;&lt;br&gt;update检查位" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-142" value="5&lt;br&gt;&lt;br&gt;是否pending" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-143" value="1&lt;br&gt;&lt;br&gt;预留" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-144" value="4&lt;br&gt;&lt;br&gt;健康检查位" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-145" value="2&lt;br&gt;&lt;br&gt;db状态同步位" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-146" value="0&lt;br&gt;&lt;br&gt;预留" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="50" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-147" value="55-48" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-148" value="partitionID" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-149" value="47-32" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-150" value="slotID" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="60" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-151" value="31-0" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="700" y="40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WF5b56qiC7Ucj1vPDahx-152" value="trigger cnt&lt;br&gt;&lt;br&gt;暂时弃用" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="700" y="80" width="60" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
