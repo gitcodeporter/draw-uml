@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-10T03:07:20.533Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="WoAgvlB21PP5J0rH-E-r" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-10T06:25:49.627Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="RSqlaaBhEuiXeqrqgco_" version="14.9.7" type="github">
   <diagram id="M-qKC3qr806KLWmZ0Jch" name="第 1 页">
-    <mxGraphModel dx="2626" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2226" dy="1149" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,19 +160,6 @@
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-8" value="timewheel" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-167" y="396" width="69" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#6D8764;" edge="1" parent="1" source="0nwmMuTyDeL7QVPxEyri-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-510" y="264" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-14" value="发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#6D8764;" vertex="1" connectable="0" parent="0nwmMuTyDeL7QVPxEyri-12">
-          <mxGeometry x="-0.122" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0nwmMuTyDeL7QVPxEyri-11" value="管控台执行指令：&lt;br&gt;&lt;br&gt;remove-timewheel&lt;br&gt;&lt;br&gt;transfer-timewheel&lt;br&gt;&lt;br&gt;transfer-jobs" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3A5431;fontColor=#ffffff;fillColor=#6D8764;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="210" width="234" height="107" as="geometry" />
         </mxCell>
         <mxCell id="0nwmMuTyDeL7QVPxEyri-20" value="1、删除sigmad流程：&lt;br&gt;offline —&amp;gt; tombstone —&amp;gt; delete" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="-207" y="85" width="205" height="70" as="geometry" />
