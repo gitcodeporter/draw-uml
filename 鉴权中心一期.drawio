@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T10:29:30.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="dQSWXMkrk5SeMBgf2Cld" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-13T10:31:33.632Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="J-V1t6lhivvCUTOYmeNk" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-2" value="管控台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="280" y="150" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-7" value="2、登录管控台&lt;br&gt;申请资源权限" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-3" target="FW1CljVprD20GtqrH7NL-2">
+        <mxCell id="FW1CljVprD20GtqrH7NL-7" value="2、登录管控台&lt;br&gt;apply资源权限" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-3" target="FW1CljVprD20GtqrH7NL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FW1CljVprD20GtqrH7NL-4">
@@ -48,7 +48,7 @@
             <mxPoint x="200" y="347" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-11" value="4、携带通行证访问服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-10">
+        <mxCell id="FW1CljVprD20GtqrH7NL-11" value="4、携带token访问服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-10">
           <mxGeometry x="0.14" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -59,12 +59,12 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4" target="FW1CljVprD20GtqrH7NL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-6" value="1、登录管控台、&lt;br&gt;注册资源权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-5">
+        <mxCell id="FW1CljVprD20GtqrH7NL-6" value="1、登录管控台、&lt;br&gt;register资源权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-5">
           <mxGeometry x="-0.053" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-14" value="5、拉取权限" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4" target="FW1CljVprD20GtqrH7NL-1">
+        <mxCell id="FW1CljVprD20GtqrH7NL-14" value="5、pull权限" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4" target="FW1CljVprD20GtqrH7NL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4">
