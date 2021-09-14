@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T03:04:16.019Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="He9KrnJHKW5s_frL_PBH" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:57:20.638Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="CxUTUTV5yde_R_flDJbO" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
             <mxPoint x="140" y="885" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-31" value="同步dubbo应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-30">
+        <mxCell id="FW1CljVprD20GtqrH7NL-31" value="同步应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-30">
           <mxGeometry x="0.0598" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -108,7 +108,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-26" value="工号系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="650" y="865" width="138" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-29" value="dubbo注册中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FW1CljVprD20GtqrH7NL-29" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="862" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-33" value="login" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-32" target="FW1CljVprD20GtqrH7NL-2">
@@ -132,7 +132,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-39" value="工号系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="612" y="301" width="138" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-40" value="dubbo管控台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FW1CljVprD20GtqrH7NL-40" value="应用管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="82" y="298" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-41" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#000000;" vertex="1" parent="1">
