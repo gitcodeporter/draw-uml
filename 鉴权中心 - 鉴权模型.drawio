@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T03:40:45.743Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="mUYItop6WX2W05_IUmnB" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T04:10:10.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="T6BP9w4wtOoLaDX3vJgh" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="-420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,13 @@
           <mxGeometry x="649" y="1710" width="116" height="548" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
-          <mxGeometry x="53" y="221" width="10" height="166" as="geometry" />
+          <mxGeometry x="53" y="338" width="10" height="166" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
-          <mxGeometry x="53" y="402" width="10" height="68" as="geometry" />
+          <mxGeometry x="53" y="519" width="10" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
+          <mxGeometry x="53" y="238" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-1" value="consumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="83" y="1710" width="106" height="556" as="geometry" />
@@ -20,10 +23,13 @@
           <mxGeometry x="48.62" y="52" width="10" height="72" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
-          <mxGeometry x="49" y="221" width="10" height="155" as="geometry" />
+          <mxGeometry x="49" y="338" width="10" height="155" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-50" value="周&lt;br&gt;期&lt;br&gt;性" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
-          <mxGeometry x="45" y="402" width="16" height="65" as="geometry" />
+          <mxGeometry x="45" y="519" width="16" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
+          <mxGeometry x="49" y="237" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-5" value="provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="53" y="2406" width="101" height="623" as="geometry" />
@@ -77,13 +83,13 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-34" value="将（IP+应用名+密钥配置）传递给auth，请求token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="142" y="1947" as="sourcePoint" />
-            <mxPoint x="703" y="1947" as="targetPoint" />
+            <mxPoint x="142" y="2064" as="sourcePoint" />
+            <mxPoint x="703" y="2064" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=6;strokeColor=#000000;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="281" y="1987" as="targetPoint" />
+            <mxPoint x="281" y="2104" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-42" value="识别失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-41">
@@ -93,9 +99,9 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="144" y="2054" as="targetPoint" />
+            <mxPoint x="144" y="2171" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="425" y="2054" />
+              <mxPoint x="425" y="2171" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -105,24 +111,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-37" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="406" y="1966" width="38" height="39" as="geometry" />
+          <mxGeometry x="406" y="2083" width="38" height="39" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-40" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;对consumer进行身份识别&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;endSize=6;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-33" target="JHoGeUMgcDAlhT3e80eg-37">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="621" y="1987" />
+              <mxPoint x="621" y="2104" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="252" y="1970.5" width="30" height="30" as="geometry" />
+          <mxGeometry x="252" y="2087.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="142" y="2129.5" as="sourcePoint" />
-            <mxPoint x="700" y="2129" as="targetPoint" />
+            <mxPoint x="142" y="2246.5" as="sourcePoint" />
+            <mxPoint x="700" y="2246" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="421" y="2129" />
+              <mxPoint x="421" y="2246" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -133,10 +139,10 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="146" y="2161" as="targetPoint" />
+            <mxPoint x="146" y="2278" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="528" y="2161" />
-              <mxPoint x="528" y="2161" />
+              <mxPoint x="528" y="2278" />
+              <mxPoint x="528" y="2278" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -239,6 +245,18 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-80" value="provider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="67.5" y="1418" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-98" value="在管控台选择资源，配置参数，申请，等待审核" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="1962" as="sourcePoint" />
+            <mxPoint x="700" y="1962" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-99" value="审核通过后可进行调用" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="2008" as="sourcePoint" />
+            <mxPoint x="145" y="2008" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
