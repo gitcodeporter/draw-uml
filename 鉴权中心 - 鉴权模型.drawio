@@ -1,23 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T06:51:49.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ovIjRwJOEz0H9KOGXXnC" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T08:13:17.475Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="fyQocCn5zX_Ux27o0-6b" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="-420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="JHoGeUMgcDAlhT3e80eg-0" value="auth center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="649" y="1710" width="116" height="605" as="geometry" />
+          <mxGeometry x="649" y="1710" width="116" height="724" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
           <mxGeometry x="53" y="338" width="10" height="166" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
-          <mxGeometry x="53" y="519" width="10" height="68" as="geometry" />
+          <mxGeometry x="53" y="622" width="10" height="68" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
           <mxGeometry x="53" y="238" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF3333;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-0">
+          <mxGeometry x="53" y="523" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-1" value="consumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="83" y="1710" width="106" height="604" as="geometry" />
+          <mxGeometry x="83" y="1710" width="106" height="737" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
           <mxGeometry x="48.62" y="52" width="10" height="72" as="geometry" />
@@ -26,13 +29,16 @@
           <mxGeometry x="49" y="338" width="10" height="155" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
-          <mxGeometry x="45" y="519" width="16" height="65" as="geometry" />
+          <mxGeometry x="45" y="622" width="16" height="65" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
           <mxGeometry x="49" y="237" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-100" value="登录管控台&lt;br&gt;领取身份证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
           <mxGeometry x="-47" y="64" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#FF3333;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="JHoGeUMgcDAlhT3e80eg-1">
+          <mxGeometry x="48" y="518" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-5" value="provider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="48" y="3554" width="101" height="623" as="geometry" />
@@ -84,7 +90,7 @@
             <mxPoint x="147" y="1904" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-34" value="将（IP+应用名+密钥配置）传递给auth，请求token" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-34" value="将（IP+应用名+密钥配置）传递给auth，验证身份" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="142" y="2064" as="sourcePoint" />
             <mxPoint x="703" y="2064" as="targetPoint" />
@@ -108,7 +114,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-49" value="识别成功，下发token和refresh_token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-48">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-49" value="识别成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-48">
           <mxGeometry x="0.2776" y="-1" relative="1" as="geometry">
             <mxPoint x="28" y="-1" as="offset" />
           </mxGeometry>
@@ -128,10 +134,10 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="142" y="2246.5" as="sourcePoint" />
-            <mxPoint x="700" y="2246" as="targetPoint" />
+            <mxPoint x="142" y="2349.5" as="sourcePoint" />
+            <mxPoint x="700" y="2349" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="421" y="2246" />
+              <mxPoint x="421" y="2349" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -142,10 +148,10 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="146" y="2278" as="targetPoint" />
+            <mxPoint x="146" y="2381" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="528" y="2278" />
-              <mxPoint x="528" y="2278" />
+              <mxPoint x="528" y="2381" />
+              <mxPoint x="528" y="2381" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -267,11 +273,36 @@
         <mxCell id="JHoGeUMgcDAlhT3e80eg-102" value="申请资源权限" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="36" y="1966" width="91" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-103" value="调用资源前先获取token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-103" value="调用资源前先验证身份" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="36" y="2098" width="91" height="36" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-104" value="周期性同步token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="36" y="2243" width="91" height="36" as="geometry" />
+          <mxGeometry x="36" y="2346" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-108" value="调用资源前先获取token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="36" y="2247" width="91" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-111" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF3333;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141" y="2249" as="sourcePoint" />
+            <mxPoint x="699" y="2249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-113" value="携带身份证和资源名请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-111">
+          <mxGeometry x="-0.0072" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-114" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="702" y="2286" as="sourcePoint" />
+            <mxPoint x="143" y="2286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-115" value="下发token信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-114">
+          <mxGeometry x="0.0483" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
