@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T04:10:10.590Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="T6BP9w4wtOoLaDX3vJgh" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:12:12.693Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gpnhb6sOtB0yaibFmCWk" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="-420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -248,14 +248,14 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-98" value="在管控台选择资源，配置参数，申请，等待审核" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="142" y="1962" as="sourcePoint" />
-            <mxPoint x="700" y="1962" as="targetPoint" />
+            <mxPoint x="142" y="1968" as="sourcePoint" />
+            <mxPoint x="700" y="1968" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-99" value="审核通过后可进行调用" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-99" value="审核通过后企微通知" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="702" y="2008" as="sourcePoint" />
-            <mxPoint x="145" y="2008" as="targetPoint" />
+            <mxPoint x="702" y="2006" as="sourcePoint" />
+            <mxPoint x="145" y="2006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
