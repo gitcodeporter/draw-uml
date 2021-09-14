@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T02:16:27.580Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="l2XS5lhFfdX8SVidOR75" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T02:16:38.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="SBhxvWZZuFM7Omkj-CNS" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-29" value="dubbo注册中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="862" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-33" value="登录" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-32" target="FW1CljVprD20GtqrH7NL-2">
+        <mxCell id="FW1CljVprD20GtqrH7NL-33" value="login" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-32" target="FW1CljVprD20GtqrH7NL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-32" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
