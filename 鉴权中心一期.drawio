@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T13:17:04.621Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bVf1PB2Ydi1JszL_BT2O" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T02:12:09.040Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="j_z5bSLv_edmlLQCMSVx" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,28 +170,6 @@
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-56" value="consumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="673.25" y="1600" width="101" height="623" as="geometry" />
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-58" value="鉴权服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="563" y="1213" width="116" height="334" as="geometry" />
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-59" value="consumer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="154.75" y="1213" width="107.25" height="338" as="geometry" />
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-62" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="445" y="1446" as="sourcePoint" />
-            <mxPoint x="525" y="1446" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-60" value="向鉴权服务申请资源权限" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry x="-0.4171" y="14" relative="1" as="geometry">
-            <mxPoint x="215" y="1295" as="sourcePoint" />
-            <mxPoint x="613" y="1295" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-61" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="FW1CljVprD20GtqrH7NL-60">
-          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
