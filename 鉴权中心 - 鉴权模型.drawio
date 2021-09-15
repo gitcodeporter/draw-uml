@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T02:55:52.719Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="FCIcweGq4YnI5DfMYf5t" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T08:14:05.589Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="zDnu5OkkIFhvWaiyD1_S" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="-420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,7 +337,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-145" value="传递（application+serviceName）请求同步密钥列表&lt;br&gt;（针对的是单个provider）" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-145" value="一次性请求同步所有所属密钥列表" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="142" y="3719" as="sourcePoint" />
             <mxPoint x="700" y="3719" as="targetPoint" />
