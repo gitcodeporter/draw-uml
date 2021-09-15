@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T13:30:56.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="JUTDY2Ek8TQR4A6ZE1m1" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T02:06:59.245Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="nVzMo2vYYId_oWgEpwLO" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1878" dy="-386" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
             <mxPoint x="203.5" y="1427" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-71" value="5、携带token访问服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-70">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-71" value="5、携带token相关参数访问服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JHoGeUMgcDAlhT3e80eg-70">
           <mxGeometry x="0.14" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -198,7 +198,7 @@
             <mxPoint x="72" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-72" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-72" value="client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="651.5" y="1418" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JHoGeUMgcDAlhT3e80eg-80" target="JHoGeUMgcDAlhT3e80eg-63">
@@ -240,7 +240,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-80" value="provider" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-80" value="server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="67.5" y="1418" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-98" value="在管控台选择资源，配置参数，申请，等待审核" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
