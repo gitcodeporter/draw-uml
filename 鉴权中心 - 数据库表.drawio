@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T08:02:49.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="3JH_oT7lps-2_UHNbpbp" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T08:05:04.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gUEboJRITfW3qkivVxpi" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MC6F5oXFD5IwIdk5tqou-66" target="MC6F5oXFD5IwIdk5tqou-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-85" value="种子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MC6F5oXFD5IwIdk5tqou-71">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-85" value="密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MC6F5oXFD5IwIdk5tqou-71">
           <mxGeometry x="-0.0137" y="1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -81,7 +81,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-92" value="种子同步给server用于验证token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MC6F5oXFD5IwIdk5tqou-91">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-92" value="密钥同步给server用于验证token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MC6F5oXFD5IwIdk5tqou-91">
           <mxGeometry x="-0.2644" y="1" relative="1" as="geometry">
             <mxPoint x="108" as="offset" />
           </mxGeometry>
@@ -123,20 +123,8 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-90" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;调用资源传递token&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5;arrowSize=0.19534883720930232;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="391" y="524" width="167" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-93" value="" style="endArrow=classic;html=1;endSize=6;targetPerimeterSpacing=7;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="MC6F5oXFD5IwIdk5tqou-67">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="683" y="538" as="sourcePoint" />
-            <mxPoint x="683" y="618" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="725" y="538" />
-              <mxPoint x="725" y="565" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-94" value="验证token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="MC6F5oXFD5IwIdk5tqou-93">
-          <mxGeometry x="-0.0099" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-95" value="本地存储各个client端的密钥" style="shape=display;whiteSpace=wrap;html=1;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="682" y="533" width="96" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
