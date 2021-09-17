@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-17T08:05:04.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gUEboJRITfW3qkivVxpi" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-17T08:08:40.702Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="6JlAjdQTzoh0ZLBOGRRH" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,8 +123,29 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-90" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;调用资源传递token&lt;/span&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.5;arrowSize=0.19534883720930232;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="391" y="524" width="167" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-95" value="本地存储各个client端的密钥" style="shape=display;whiteSpace=wrap;html=1;strokeColor=#001DBC;fillColor=#0050ef;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="682" y="533" width="96" height="40" as="geometry" />
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-96" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeColor=#000000;fillColor=#67AB9F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="683" y="495" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-97" value="&lt;span style=&quot;&quot;&gt;本地存储各个client端的密钥&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="620" width="93" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-98" value="" style="line;strokeWidth=2;html=1;fontColor=#000000;fillColor=#67AB9F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="706" y="501" width="96" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-99" value="Client-1密钥信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="483" width="99" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-100" value="" style="line;strokeWidth=2;html=1;fontColor=#000000;fillColor=#67AB9F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="706" y="542" width="96" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-101" value="Client-2密钥信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="524" width="99" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-102" value="" style="line;strokeWidth=2;html=1;fontColor=#000000;fillColor=#67AB9F;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="706" y="588" width="96" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-103" value="Client-...密钥信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="701" y="570" width="103" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
