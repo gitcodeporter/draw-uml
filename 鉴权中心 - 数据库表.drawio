@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T04:28:45.246Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Sc7996asV1aQpvOtpjOi" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T04:32:58.577Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="kuIp0l4d9Y-R01m5cxCb" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,16 +196,16 @@
           <mxGeometry x="197" y="1715" width="566" height="65" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-119" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="218" y="1728" width="84" height="41" as="geometry" />
+          <mxGeometry x="211" y="1728" width="70" height="41" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-121" value="redis" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="323" y="1728" width="84" height="41" as="geometry" />
+          <mxGeometry x="302" y="1728" width="70" height="41" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-122" value="云鹄监控中心" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="436.75" y="1728" width="90.25" height="41" as="geometry" />
+          <mxGeometry x="390.38" y="1728" width="90.25" height="41" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-123" value="Kibana日志" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="549" y="1729" width="96" height="40" as="geometry" />
+          <mxGeometry x="502" y="1728" width="82" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-124" value="web管控台" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="214" y="1395" width="280" height="53" as="geometry" />
@@ -268,7 +268,10 @@
           <mxGeometry x="65" y="1294" width="101" height="65" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-145" value="CMDB" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="656" y="1729" width="96" height="40" as="geometry" />
+          <mxGeometry x="602" y="1728" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-146" value="K8S" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="684" y="1728" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
