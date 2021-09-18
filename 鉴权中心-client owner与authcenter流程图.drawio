@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T12:58:37.437Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="1ynXeZfAF2gZqP1JBIES" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-18T15:22:31.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Au0-OuUtYo2S1ddvi4ye" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1826" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -754,6 +754,18 @@
         </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-513" value="server服务同步权限信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-35" y="1873" width="282" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="DeKQThP0z9D1mcQqg2c3-520" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DeKQThP0z9D1mcQqg2c3-516" target="DeKQThP0z9D1mcQqg2c3-519">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeKQThP0z9D1mcQqg2c3-516" value="项目" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="264" y="2388" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeKQThP0z9D1mcQqg2c3-519" value="owner" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="122" y="2390.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="DeKQThP0z9D1mcQqg2c3-521" value="owner" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="147.5" y="2319" width="55" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
