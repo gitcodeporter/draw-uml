@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-09-18T07:40:05.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="X7ynaP36pSDYNrK3t-zP" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T09:08:42.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="23stqapiGotLntpdH3Sm" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
-    <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="826" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FW1CljVprD20GtqrH7NL-98" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-65" target="FW1CljVprD20GtqrH7NL-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FW1CljVprD20GtqrH7NL-99" value="缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-98">
+          <mxGeometry x="-0.1924" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="331" y="237" width="216" height="93" as="geometry" />
         </mxCell>
@@ -13,7 +21,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="661.5" y="504" width="130" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-1" target="FW1CljVprD20GtqrH7NL-82">
+        <mxCell id="FW1CljVprD20GtqrH7NL-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-1" target="FW1CljVprD20GtqrH7NL-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-95" value="存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-94">
@@ -116,7 +124,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-82" value="Mysql" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="398" y="386" width="60" height="60" as="geometry" />
+          <mxGeometry x="342" y="382" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FW1CljVprD20GtqrH7NL-97" value="Redis" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="463" y="382" width="61" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
