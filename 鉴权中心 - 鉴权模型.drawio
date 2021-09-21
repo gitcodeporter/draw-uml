@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T11:41:30.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Rm1A6wto7yjbS5HX_UwL" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T11:42:17.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="k8xrB8XAom0EQg3ev3IS" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2626" dy="-451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1074,7 +1074,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-109" value="3、进入应用管理，选择应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-108">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-109" value="3、进入应用管理，选取应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-108">
           <mxGeometry x="-0.4318" y="1" relative="1" as="geometry">
             <mxPoint x="-21" as="offset" />
           </mxGeometry>
