@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T08:47:07.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="wNHjSEJEoXroowybcrtc" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T11:25:46.929Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Ug0YqnzN6xyzm56GHM16" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3287" dy="-244" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2784" dy="-368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,26 +21,26 @@
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="701.5" y="1879.996" as="sourcePoint" />
-            <mxPoint x="60.5" y="1880" as="targetPoint" />
+            <mxPoint x="699" y="1879.996" as="sourcePoint" />
+            <mxPoint x="66" y="1880" as="targetPoint" />
             <Array as="points">
               <mxPoint x="221" y="1880" />
               <mxPoint x="221" y="1880" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-24" value="4、生成该应用的身份密钥，用于身份认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JHoGeUMgcDAlhT3e80eg-22" vertex="1" connectable="0">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-24" value="4、生成该应用的身份密钥，用于与auth center进行身份认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JHoGeUMgcDAlhT3e80eg-22" vertex="1" connectable="0">
           <mxGeometry x="0.3739" relative="1" as="geometry">
             <mxPoint x="260" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="0JY7ROlr-kVMhh-dKAsf-100" source="JHoGeUMgcDAlhT3e80eg-1">
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="141.6199999999999" y="1773" as="sourcePoint" />
-            <mxPoint x="252.5" y="1783" as="targetPoint" />
+            <mxPoint x="56.38888888888869" y="1776.9999999999998" as="sourcePoint" />
+            <mxPoint x="353" y="1776.9999999999998" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="262" y="1777" />
-              <mxPoint x="262" y="1777" />
+              <mxPoint x="258" y="1777" />
+              <mxPoint x="258" y="1777" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -841,14 +841,14 @@
               <mxPoint x="640" y="1990" />
               <mxPoint x="640" y="2025" />
             </Array>
-            <mxPoint x="707" y="2025" as="targetPoint" />
+            <mxPoint x="704" y="2025" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-68" value="9、企微通知审核结果" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="JHoGeUMgcDAlhT3e80eg-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-68" value="9、企微通知审核结果" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="705" y="2115" as="sourcePoint" />
-            <mxPoint x="141" y="2115" as="targetPoint" />
+            <mxPoint x="705" y="2135" as="sourcePoint" />
+            <mxPoint x="66" y="2135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-69" value="auth center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -999,21 +999,21 @@
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-98" value="8、client Owner TL审核" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-0.0059" y="-69" relative="1" as="geometry">
-            <mxPoint x="707" y="2051" as="sourcePoint" />
+            <mxPoint x="707" y="2056" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="640" y="2051" />
-              <mxPoint x="640" y="2086" />
+              <mxPoint x="640" y="2056" />
+              <mxPoint x="640" y="2091" />
             </Array>
-            <mxPoint x="707" y="2086" as="targetPoint" />
+            <mxPoint x="705" y="2091" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-101" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="357" y="1808" as="sourcePoint" />
-            <mxPoint x="60.5" y="1808" as="targetPoint" />
+            <mxPoint x="361" y="1808" as="sourcePoint" />
+            <mxPoint x="64.5" y="1808" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="146" y="1808" />
+              <mxPoint x="150" y="1808" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1025,10 +1025,10 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-100" value="sso" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="304.5" y="1710" width="106" height="604" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-103" value="3、进入应用管理，录入应用" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="JHoGeUMgcDAlhT3e80eg-0">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-103" value="3、进入应用管理，选择应用" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endSize=6;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-0.6202" relative="1" as="geometry">
-            <mxPoint x="61.5" y="1849" as="sourcePoint" />
-            <mxPoint x="619.5" y="1849" as="targetPoint" />
+            <mxPoint x="68" y="1849" as="sourcePoint" />
+            <mxPoint x="698" y="1849" as="targetPoint" />
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -1123,6 +1123,33 @@
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-134" value="过程：&lt;br&gt;1、本地权限列表是否有该资源对应的client令牌&lt;br&gt;2、本地新旧令牌生成时间分别与client传递过来的令牌时间对比，如果非最新时间将重新向auth center服务发起同步请求&lt;br&gt;3、找到对应的令牌私钥计算出令牌&lt;br&gt;hmac-sha256(应用名+生成时间，令牌私钥)&lt;br&gt;4、与client传递过来的token进行比对" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-427" y="3012" width="368" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="56" y="1768" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="352.5" y="1766" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-145" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="56" y="1843" width="10" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-146" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="702" y="1836" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-147" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="1912" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-148" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="1982" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-149" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="2051" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-150" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="703" y="2117.5" width="10" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-151" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="56" y="2109" width="10" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
