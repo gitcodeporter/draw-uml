@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T03:18:11.685Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="XG4shTRQoAi1EIgfjDZk" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T03:19:09.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bHzMzPuWyO5ShNcPxQRB" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2253" dy="-420" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-89" value="4、生成该项目的身份密钥，用于身份认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-88">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-89" value="4、生成该应用的身份密钥，用于身份认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-88">
           <mxGeometry x="0.1016" y="-1" relative="1" as="geometry">
             <mxPoint x="121" as="offset" />
           </mxGeometry>
@@ -1004,7 +1004,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-109" value="3、进入场景管理，录入项目" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-108">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-109" value="3、进入应用管理，录入应用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-108">
           <mxGeometry x="-0.4318" y="1" relative="1" as="geometry">
             <mxPoint x="-21" as="offset" />
           </mxGeometry>
