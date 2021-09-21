@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T11:42:17.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="k8xrB8XAom0EQg3ev3IS" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T12:31:20.254Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="kUqHHtE8Z5hAha8mnppG" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2626" dy="-451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1138,7 +1138,7 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-129" value="过程：&lt;br&gt;1、验签是否通过&lt;br&gt;2、身份密钥是否匹配&lt;br&gt;3、获取本应用下的所有资源权限信息列表，包含对应client的token信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-113" y="2750" width="173" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-134" value="过程：&lt;br&gt;1、本地权限列表是否有该资源对应的client令牌&lt;br&gt;2、本地新旧令牌生成时间分别与client传递过来的令牌时间对比，如果非最新时间将重新向auth center服务发起同步请求&lt;br&gt;3、找到对应的令牌私钥计算出令牌&lt;br&gt;hmac-sha256(应用名+生成时间，令牌私钥)&lt;br&gt;4、与client传递过来的token进行比对" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-134" value="&lt;font style=&quot;font-size: 13px&quot;&gt;过程：&lt;br&gt;1、本地权限列表是否有该资源对应的client令牌&lt;br&gt;2、本地新旧令牌生成时间分别与client传递过来的令牌时间对比，如果非最新时间将重新向auth center服务发起同步请求&lt;br&gt;3、找到对应的令牌私钥根据算法计算出令牌，与client传递过来的token进行比对&lt;br&gt;hmac-sha256(应用key+生成时间，令牌私钥)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-427" y="3012" width="368" height="116" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
