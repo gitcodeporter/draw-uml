@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T11:00:57.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="TBUpnz6Eb3EbueaaHv3k" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T11:06:41.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="QCJsrMAFze6RxswB63zg" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -292,7 +292,7 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-184" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.021;exitY=0.202;exitDx=0;exitDy=0;entryX=0.021;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#0000FF;endSize=6;targetPerimeterSpacing=7;strokeColor=#A20025;strokeWidth=1;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MC6F5oXFD5IwIdk5tqou-151" target="MC6F5oXFD5IwIdk5tqou-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-151" value="proxy服务" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-151" value="Nginx / Kong服务" style="whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="244" y="1898" width="94" height="163" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-163" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endSize=6;targetPerimeterSpacing=7;strokeColor=#000000;strokeWidth=1;exitX=1.021;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MC6F5oXFD5IwIdk5tqou-155" target="MC6F5oXFD5IwIdk5tqou-162">
