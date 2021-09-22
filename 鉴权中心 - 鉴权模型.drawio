@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T13:52:24.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="E9b_exoa33peE3X-tHfo" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T13:55:14.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="65OSm_9ZJXEx5lAZn7hV" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2784" dy="-368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,7 +362,7 @@
           <mxGeometry x="341" y="5123" width="106" height="106" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-211" value="返回失败" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="148" y="5146" width="120" height="60" as="geometry" />
+          <mxGeometry x="121" y="5146" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JHoGeUMgcDAlhT3e80eg-213" value="响应请求" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="334.5" y="5285" width="120" height="60" as="geometry" />
@@ -374,8 +374,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JHoGeUMgcDAlhT3e80eg-216" value="请求拉取最新密钥" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="141.5" y="4994" width="120" height="60" as="geometry" />
+        <mxCell id="JHoGeUMgcDAlhT3e80eg-216" value="向authcenter服务请&lt;br&gt;求拉取最新权限" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="118.5" y="4996.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A_OjdWBJRIQqMs_Nt-ZB-0" value="server1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="189" y="2906" width="65" height="65" as="geometry" />
