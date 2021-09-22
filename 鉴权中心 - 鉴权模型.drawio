@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T07:58:28.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="3WJuo65XygBmP0HPmd8v" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T13:44:32.687Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="AWeqvG-rVQ_u8lnvqUnt" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2784" dy="-308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2784" dy="-368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1428,18 +1428,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-292" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="940" y="4091" width="10" height="306" as="geometry" />
+          <mxGeometry x="940" y="4091" width="10" height="312" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-293" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1398" y="4098" width="10" height="311" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-294" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1408" y="4165" width="10" height="202" as="geometry" />
+          <mxGeometry x="1408" y="4165" width="10" height="243" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-295" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1418" y="4232" width="10" height="149" as="geometry" />
+          <mxGeometry x="1418" y="4232" width="10" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-296" value="3、&lt;span style=&quot;font-size: 13px&quot;&gt;本地权限列表是否有该资源对应的client令牌&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;strokeColor=#000000;entryX=1.133;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-296" value="3、&lt;span style=&quot;font-size: 13px&quot;&gt;本地权限列表是否存在该资源对应的client token&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;strokeColor=#000000;entryX=1.133;entryY=0.281;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="0.7996" y="-17" relative="1" as="geometry">
             <mxPoint x="1418" y="4181.61" as="sourcePoint" />
             <Array as="points">
@@ -1467,7 +1467,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-299" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1428" y="4315" width="10" height="86" as="geometry" />
+          <mxGeometry x="1428" y="4315" width="10" height="93" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-300" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;strokeColor=#000000;entryX=1.356;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1" y="-18" relative="1" as="geometry">
