@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T06:18:22.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ofMZ3f3sz58a9Ozp3kXR" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T06:18:45.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gU6R0IEWpkf7paA5Cmti" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -339,7 +339,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-159" value="使用二方包的service" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-159" value="使用二方包的server" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="37" y="2007" width="122" height="58" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-162" value="mysql" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
