@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T06:16:36.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gyAmDIHwdx1ln4XS4l8v" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T02:24:39.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="eDpO4PcOkKPs7Gu_OrLJ" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
-    <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,16 +12,6 @@
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-63" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="661.5" y="504" width="130" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="FW1CljVprD20GtqrH7NL-82">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="421" y="322" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-95" value="存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-94">
-          <mxGeometry x="-0.0069" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="FW1CljVprD20GtqrH7NL-1" value="auth center服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="316" y="232" width="224" height="90" as="geometry" />
@@ -116,9 +106,6 @@
             <mxPoint x="242" y="281" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-82" value="Mysql" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="391" y="382" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
