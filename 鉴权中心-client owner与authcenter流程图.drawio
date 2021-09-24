@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T09:56:51.783Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Z-gb6b9W7H-OAf2tQCms" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T10:43:10.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="cLvx8aXJofFmMrixt1Rh" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2253" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -496,9 +496,6 @@
         <mxCell id="DeKQThP0z9D1mcQqg2c3-549" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DeKQThP0z9D1mcQqg2c3-543" target="DeKQThP0z9D1mcQqg2c3-546">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DeKQThP0z9D1mcQqg2c3-550" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DeKQThP0z9D1mcQqg2c3-543" target="DeKQThP0z9D1mcQqg2c3-545">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-553" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DeKQThP0z9D1mcQqg2c3-543" target="DeKQThP0z9D1mcQqg2c3-551">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -521,14 +518,11 @@
         <mxCell id="DeKQThP0z9D1mcQqg2c3-543" value="资源" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="592.25" y="2677" width="71" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="DeKQThP0z9D1mcQqg2c3-545" value="描述" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="659.5" y="2576" width="58.75" height="42" as="geometry" />
-        </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-546" value="资源名" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="711.5" y="2675" width="58.75" height="42" as="geometry" />
+          <mxGeometry x="699.5" y="2645" width="58.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-548" value="鉴权开关" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="694.5" y="2624" width="58.75" height="42" as="geometry" />
+          <mxGeometry x="677.38" y="2590" width="58.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-551" value="拥有" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="425.25" y="2666" width="67" height="59.5" as="geometry" />
@@ -639,7 +633,7 @@
           <mxGeometry x="201.63" y="2567" width="58.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-630" value="开放开关" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="711.5" y="2731" width="58.75" height="42" as="geometry" />
+          <mxGeometry x="709.26" y="2703" width="58.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="DeKQThP0z9D1mcQqg2c3-632" value="token是&lt;br&gt;否过期" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="178" y="1464" width="73" height="63" as="geometry" />
