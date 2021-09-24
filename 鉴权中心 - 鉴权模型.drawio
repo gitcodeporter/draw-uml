@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T03:28:21.439Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bXIjrDw5lvGSjimCvR0t" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T02:54:03.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="O5o2p762SJ6xba4FIcfo" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3287" dy="-330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1126,7 +1126,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-180" value="过程：&lt;br&gt;1、验签是否通过&lt;br&gt;2、身份密钥是否匹配&lt;br&gt;3、当前是否有存在有效token，没有则创建" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#A20025;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-180" value="过程：&lt;br&gt;1、验签是否通过&lt;br&gt;2、sk是否匹配&lt;br&gt;3、当前是否有存在有效token，没有则创建" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#A20025;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1606" y="2513" width="167" height="95" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-181" value="&lt;b&gt;token过期&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#A20025;width=85;height=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -1161,7 +1161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、将请求参数打包签名后，请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-196">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、如果过期则将请求参数打包签名后，请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-196">
           <mxGeometry x="-0.3613" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
