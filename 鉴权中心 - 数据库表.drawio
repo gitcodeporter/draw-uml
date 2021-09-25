@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T06:18:45.813Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="gU6R0IEWpkf7paA5Cmti" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T02:17:54.089Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="p_aucHNDSFIr91PS5bXB" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,10 +159,10 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-107" value="访问层" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="65" y="1199" width="101" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-109" value="consumer Owner" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-109" value="client Owner" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250.5" y="1213.25" width="104" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-110" value="provider Owner" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-110" value="server Owner" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="374.5" y="1213.25" width="104" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-111" value="dubbo二方包" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -204,7 +204,7 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-124" value="web管控台" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="214" y="1395" width="280" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-125" value="OpenAPI" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-125" value="资源同步服务" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="515" y="1395" width="237" height="53" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-126" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -267,7 +267,7 @@
         <mxCell id="MC6F5oXFD5IwIdk5tqou-146" value="K8S" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="645" y="1729" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MC6F5oXFD5IwIdk5tqou-147" value="本地缓存" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="MC6F5oXFD5IwIdk5tqou-147" value="OpenAPI" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="515" y="1465" width="235" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MC6F5oXFD5IwIdk5tqou-152" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endSize=6;targetPerimeterSpacing=7;strokeWidth=1;strokeColor=#A20025;entryX=-0.011;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MC6F5oXFD5IwIdk5tqou-149" target="MC6F5oXFD5IwIdk5tqou-151">
