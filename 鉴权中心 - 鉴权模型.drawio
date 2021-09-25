@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T03:45:17.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="3gXZSbsYAeII_XYRDKUh" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T09:08:00.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="D9RBjlM34IZ-TBwshQFn" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3287" dy="-330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3287" dy="-270" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1210,7 +1210,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-210" value="4、发起同步权限信息请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-209">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-210" value="4、发起同步单个权限信息请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-209">
           <mxGeometry x="-0.4451" y="-1" relative="1" as="geometry">
             <mxPoint x="62" y="-1" as="offset" />
           </mxGeometry>
@@ -1274,8 +1274,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-228" value="过程：&lt;br&gt;1、查找对应的sk是否存在&lt;br&gt;2、验签是否通过&lt;br&gt;3、获取本应用下的所有资源权限信息列表，包含对应client的token信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2386" y="3679" width="173" height="102" as="geometry" />
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-228" value="过程：&lt;br&gt;1、查找对应的SK是否存在，确认对应的SK与申请人是否匹配&lt;br&gt;2、验签是否通过&lt;br&gt;3、获取本应用下的所有资源权限信息列表，包含对应client的token信息" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#0000FF;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2386" y="3679" width="173" height="108" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-230" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#0000FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1853" y="3612" width="10" height="154" as="geometry" />
