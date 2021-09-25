@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T09:37:42.271Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="nquKvJODFPG86BPxEJ-e" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T03:25:25.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="GCJ98mFnUAgWnVs3ii6i" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-11" value="&lt;font color=&quot;#ffb366&quot;&gt;访问服务&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#A20025;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-10">
+        <mxCell id="FW1CljVprD20GtqrH7NL-11" value="&lt;font color=&quot;#ffb366&quot;&gt;访问服务（dubbo协议）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#A20025;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-10">
           <mxGeometry x="0.14" relative="1" as="geometry">
             <mxPoint x="36" y="-2" as="offset" />
           </mxGeometry>
@@ -35,7 +35,7 @@
             <mxPoint x="549" y="277" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-79" value="&lt;font color=&quot;#67ab9f&quot;&gt;认证身份，成功后请求token&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-78">
+        <mxCell id="FW1CljVprD20GtqrH7NL-79" value="&lt;font color=&quot;#67ab9f&quot;&gt;认证身份，成功后请求token（https）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-78">
           <mxGeometry x="0.0838" relative="1" as="geometry">
             <mxPoint x="23" y="34" as="offset" />
           </mxGeometry>
@@ -100,7 +100,7 @@
         <mxCell id="FW1CljVprD20GtqrH7NL-71" value="&lt;font color=&quot;#000000&quot;&gt;client owner&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="491" y="58" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-80" value="&lt;font color=&quot;#67ab9f&quot;&gt;认证身份，成功后请求本服务所属权限信息&lt;/font&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#67AB9F;startArrow=none;startFill=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4" target="FW1CljVprD20GtqrH7NL-1">
+        <mxCell id="FW1CljVprD20GtqrH7NL-80" value="&lt;font color=&quot;#67ab9f&quot;&gt;认证身份，成功后请求本服务所属权限信息（https）&lt;/font&gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#67AB9F;startArrow=none;startFill=0;" edge="1" parent="1" source="FW1CljVprD20GtqrH7NL-4" target="FW1CljVprD20GtqrH7NL-1">
           <mxGeometry x="-0.0231" relative="1" as="geometry">
             <mxPoint x="75" y="372" as="sourcePoint" />
             <mxPoint x="242" y="281" as="targetPoint" />
