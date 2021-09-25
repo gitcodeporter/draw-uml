@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T12:01:23.520Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yVcPtU9UGATKKbmZJHzV" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T12:04:44.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="VMRPG7FQ0noI8XlrDWpt" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3078" dy="-363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2626" dy="-397" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-504" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0JY7ROlr-kVMhh-dKAsf-502" target="0JY7ROlr-kVMhh-dKAsf-503">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-502" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=1;align=left;verticalAlign=top;dashed=1;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="213" y="5198" width="268" height="102" as="geometry" />
+        </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-133" value="&lt;b&gt;校验令牌&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#0000FF;width=85;height=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-557" y="2926" width="634" height="361" as="geometry" />
         </mxCell>
@@ -1893,6 +1899,9 @@
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-494" value="T-old是否&lt;br&gt;过期" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="392.51" y="5086" width="74.99" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-503" value="&lt;br&gt;&lt;br&gt;根据方案选择是否需要验证签名" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;dashed=1;strokeColor=#d6b656;strokeWidth=1;align=left;verticalAlign=top;fillColor=#fff2cc;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="28" y="5199" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
