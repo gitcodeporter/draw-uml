@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T03:44:28.916Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="m7eA8w4-64vGqoGLrxj6" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T03:45:17.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="3gXZSbsYAeII_XYRDKUh" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3287" dy="-330" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1161,7 +1161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、如果过期则将请求参数打包签名后，请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-196">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、在即将过期前，重新请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-196">
           <mxGeometry x="-0.3613" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
