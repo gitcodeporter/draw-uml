@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T09:25:45.196Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Km4o6YajhCuAHFb2y9nK" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-25T09:27:20.049Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="ipC1vbhsspAIVmzi_Wku" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3078" dy="-363" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1258,7 +1258,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-226" value="1、使用SK加密签名数据后请求全量资源权限信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-225">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-226" value="1、使用SK将请求参数打包签名后请求全量资源权限信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0JY7ROlr-kVMhh-dKAsf-225">
           <mxGeometry x="-0.475" y="1" relative="1" as="geometry">
             <mxPoint x="67" y="1" as="offset" />
           </mxGeometry>
