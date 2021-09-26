@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T12:40:47.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NORSp5mGhY-RnCFW2j1r" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T02:28:46.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Fj6lw4-PcRELpcis0rpf" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2626" dy="-397" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2626" dy="-451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1238,7 +1238,7 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-216" value="auth center服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2299" y="3532" width="116" height="530" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-222" value="&lt;b&gt;server启动时&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#0000FF;width=85;height=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-222" value="&lt;b&gt;定时同步全量数据&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#0000FF;width=105;height=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1745" y="3597" width="835" height="196" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-223" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0000FF;dashed=1;entryX=0.856;entryY=0.876;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="0JY7ROlr-kVMhh-dKAsf-230">
