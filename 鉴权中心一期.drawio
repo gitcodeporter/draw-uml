@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T03:25:25.932Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="GCJ98mFnUAgWnVs3ii6i" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T04:01:28.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="uO1jZfuKfAyGnueD_nRk" version="15.2.1" type="github">
   <diagram id="Rt_aOJDZjldqN0n_Yfco" name="第 1 页">
     <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
             <mxPoint x="351.75000000000045" y="232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-75" value="设置资源参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-67">
+        <mxCell id="FW1CljVprD20GtqrH7NL-75" value="申请应用SK&lt;br&gt;&amp;amp;&lt;br&gt;设置资源参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-67">
           <mxGeometry x="-0.0292" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -92,7 +92,7 @@
             <mxPoint x="508.75000000000045" y="232" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FW1CljVprD20GtqrH7NL-76" value="&lt;font color=&quot;#000000&quot;&gt;申请资源权限&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#A20025;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-70">
+        <mxCell id="FW1CljVprD20GtqrH7NL-76" value="&lt;font color=&quot;#000000&quot;&gt;申请应用SK&lt;br&gt;&amp;amp;&lt;br&gt;申请资源权限&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#A20025;" vertex="1" connectable="0" parent="FW1CljVprD20GtqrH7NL-70">
           <mxGeometry x="-0.0588" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
