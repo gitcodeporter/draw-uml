@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T02:28:46.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Fj6lw4-PcRELpcis0rpf" version="15.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T04:05:55.597Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="36TpKl402iEoMP6ckkcy" version="15.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2626" dy="-451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1135,7 +1135,7 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-180" value="过程：&lt;br&gt;1、查找对应的SK是否存在，确认对应的SK与申请人能否匹配&lt;br&gt;2、验签是否通过&lt;br&gt;3、当前是否有存在有效token，没有则创建" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#A20025;fillColor=#FFFFFF;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1606" y="2513" width="173" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-181" value="&lt;b&gt;token过期&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#A20025;width=85;height=28;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-181" value="&lt;b&gt;定时检测token过期&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#A20025;width=119;height=25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="911" y="2664" width="887" height="244" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-189" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#A20025;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
