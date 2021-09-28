@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T02:39:16.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="TL0mmGkZ8v9hB1Xpvtim" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T06:23:10.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="208vtN3n2yXDRutTrNQY" version="15.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2626" dy="-451" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1135,7 +1135,7 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-180" value="过程：&lt;br&gt;1、查找对应的SK是否存在，确认对应的SK与申请人能否匹配&lt;br&gt;2、验签是否通过&lt;br&gt;3、当前是否有存在有效token，没有则创建" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#A20025;fillColor=#FFFFFF;align=left;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1606" y="2513" width="173" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-181" value="&lt;b&gt;定时检测token过期&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#A20025;width=119;height=25;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-181" value="&lt;b&gt;检测token有效时长&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;align=left;verticalAlign=top;strokeWidth=2;strokeColor=#A20025;width=119;height=25;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="911" y="2664" width="887" height="244" as="geometry" />
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-189" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#A20025;strokeWidth=1;align=left;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -1147,8 +1147,8 @@
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-191" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#A20025;strokeWidth=1;align=left;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="991" y="2696" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-192" value="4、token是否过期" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;strokeColor=#A20025;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
-          <mxGeometry x="-0.634" y="-19" relative="1" as="geometry">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-192" value="4、token有效时长是否小于&lt;span&gt;clientRemainingDuration（默认20分钟，参数可配置）&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;strokeColor=#A20025;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry x="-0.8516" y="-21" relative="1" as="geometry">
             <mxPoint x="999.62" y="2706" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1071" y="2706" />
@@ -1167,9 +1167,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、在即将过期前，重新请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0JY7ROlr-kVMhh-dKAsf-196" vertex="1" connectable="0">
+        <mxCell id="0JY7ROlr-kVMhh-dKAsf-197" value="5、token有效时长小于&lt;span&gt;clientRemainingDuration&lt;/span&gt;，重新请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0JY7ROlr-kVMhh-dKAsf-196" vertex="1" connectable="0">
           <mxGeometry x="-0.3613" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0JY7ROlr-kVMhh-dKAsf-193" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#A20025;strokeWidth=1;align=left;verticalAlign=top;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
