@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T06:48:08.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vgi_XiwQopD8SLLQUnXE" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T09:06:43.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="XTp0m8xM3bc-Gwx_3DLS" version="15.5.9" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
     <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,6 +104,17 @@
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-38" value="client端认证通过后与本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
           <mxGeometry x="290.90999999999997" y="964" width="198" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="722" as="sourcePoint" />
+            <mxPoint x="331.90999999999997" y="721.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-42" value="业务方申请topic权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-41">
+          <mxGeometry x="-0.2952" y="1" relative="1" as="geometry">
+            <mxPoint x="18" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
