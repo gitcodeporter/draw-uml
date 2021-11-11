@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T06:30:26.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="XCs9eEi9WMIfMlJa11Q-" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T06:35:39.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="u9uJlwWkkipegNBs3Yid" version="15.5.9" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
     <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,29 +12,32 @@
             <mxPoint x="17" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-1" target="M8erzikhFiW7y3PfaSRm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-1" value="kafka broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359.90999999999997" y="257" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-2" target="M8erzikhFiW7y3PfaSRm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-6" value="producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-5">
+        <mxCell id="M8erzikhFiW7y3PfaSRm-6" value="sasl认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-5">
           <mxGeometry x="-0.1234" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-2" value="kafka client二方包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="93" y="213" width="116" height="60" as="geometry" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-2" value="kafka client二方包&lt;br&gt;&lt;br&gt;（producer）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="208" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.992;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-3" target="M8erzikhFiW7y3PfaSRm-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-8" value="consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-7">
+        <mxCell id="M8erzikhFiW7y3PfaSRm-8" value="sasl认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-7">
           <mxGeometry x="-0.2088" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-3" value="kafka client二方包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M8erzikhFiW7y3PfaSRm-3" value="kafka client二方包&lt;br&gt;&lt;br&gt;（consumer）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="89" y="296" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-9" value="zk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -61,6 +64,9 @@
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-12" value="kafka admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="665.91" y="78" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-19" value="client端认证通过后与本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="320.90999999999997" y="409" width="198" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
