@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T06:19:31.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.5.9" etag="vIiHiAw7fPZknuCsCbUG" type="github"><diagram id="Uczro51jpl-yvH97A21P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-11T06:30:26.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="XCs9eEi9WMIfMlJa11Q-" version="15.5.9" type="github">
+  <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
+    <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-1" target="M8erzikhFiW7y3PfaSRm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-17" value="监听acl条目数据&lt;br&gt;变化，同步读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-10">
+          <mxGeometry x="-0.2816" y="1" relative="1" as="geometry">
+            <mxPoint x="17" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-1" value="kafka broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.90999999999997" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-2" target="M8erzikhFiW7y3PfaSRm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-6" value="producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-5">
+          <mxGeometry x="-0.1234" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-2" value="kafka client二方包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="93" y="213" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.992;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-3" target="M8erzikhFiW7y3PfaSRm-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-8" value="consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-7">
+          <mxGeometry x="-0.2088" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-3" value="kafka client二方包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="296" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-9" value="zk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="663.91" y="257" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-11" target="M8erzikhFiW7y3PfaSRm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-14" value="调用接口，&lt;br&gt;增减acl条目" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-13">
+          <mxGeometry x="-0.1667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-11" value="auth center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359.90999999999997" y="78" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-12" target="M8erzikhFiW7y3PfaSRm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-16" value="写入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M8erzikhFiW7y3PfaSRm-15">
+          <mxGeometry x="-0.0252" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-12" value="kafka admin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665.91" y="78" width="116" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
