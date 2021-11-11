@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-11T06:47:30.143Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Q52EJy-fGFTwvO7THoBH" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-11T06:48:08.762Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="vgi_XiwQopD8SLLQUnXE" version="15.5.9" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
     <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint x="17" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-24" target="M8erzikhFiW7y3PfaSRm-38">
+        <mxCell id="M8erzikhFiW7y3PfaSRm-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="M8erzikhFiW7y3PfaSRm-24" target="M8erzikhFiW7y3PfaSRm-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-24" value="kafka broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -103,7 +103,7 @@
           <mxGeometry x="637.91" y="692" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-38" value="client端认证通过后与本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
-          <mxGeometry x="292.90999999999997" y="1023" width="198" height="100" as="geometry" />
+          <mxGeometry x="290.90999999999997" y="964" width="198" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
