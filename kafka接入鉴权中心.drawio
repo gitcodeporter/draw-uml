@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T08:46:39.723Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uZgnsi6E2grg-h68FeqZ" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T09:35:05.081Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="bnLcaCZGKJRT1rsZF771" version="15.7.3" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
     <mxGraphModel dx="946" dy="623" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,6 +184,42 @@
         </mxCell>
         <mxCell id="L2M4xERiQ1L11NZPQG7T-11" value="执行成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1366" y="407.5" width="88.5" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-18" value="Kafka管控台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="610.5" width="116" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-18" target="L2M4xERiQ1L11NZPQG7T-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1102.5" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-24" target="L2M4xERiQ1L11NZPQG7T-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-21" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-20">
+          <mxGeometry x="-0.0758" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-24" target="L2M4xERiQ1L11NZPQG7T-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1261" y="560" />
+              <mxPoint x="1018" y="560" />
+            </Array>
+            <mxPoint x="913" y="613.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-23" value="执行失败重试" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-22">
+          <mxGeometry x="0.0142" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-24" value="是否成功&lt;br&gt;写入zk" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="591" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-25" value="执行成功" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1366" y="614.5" width="88.5" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
