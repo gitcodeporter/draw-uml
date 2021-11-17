@@ -1,20 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T13:26:57.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="jHQX0WrIAABMRrWiOdmF" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T03:04:52.055Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="HXR-s2ua_Tg7ZkV5KiN4" version="15.7.3" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
-    <mxGraphModel dx="1426" dy="803" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M8erzikhFiW7y3PfaSRm-39" value="同步全量acl数据" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M8erzikhFiW7y3PfaSRm-1" target="M8erzikhFiW7y3PfaSRm-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=none;endFill=0;" parent="1" source="M8erzikhFiW7y3PfaSRm-1" target="M8erzikhFiW7y3PfaSRm-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-1" value="kafka broker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="363.90999999999997" y="165" width="120" height="60" as="geometry" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="363.91" y="146" width="334.09" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="M8erzikhFiW7y3PfaSRm-2" target="M8erzikhFiW7y3PfaSRm-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="M8erzikhFiW7y3PfaSRm-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="363" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-6" value="sasl认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M8erzikhFiW7y3PfaSRm-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1234" y="1" relative="1" as="geometry">
@@ -22,10 +21,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-2" value="kafka client二方包&lt;br&gt;&lt;br&gt;（producer）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="95" y="116" width="116" height="60" as="geometry" />
+          <mxGeometry x="93" y="150" width="116" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.992;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="M8erzikhFiW7y3PfaSRm-3" target="M8erzikhFiW7y3PfaSRm-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.992;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="M8erzikhFiW7y3PfaSRm-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="275" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-8" value="sasl认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="M8erzikhFiW7y3PfaSRm-7" vertex="1" connectable="0">
           <mxGeometry x="-0.2088" y="2" relative="1" as="geometry">
@@ -33,13 +34,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-3" value="kafka client二方包&lt;br&gt;&lt;br&gt;（consumer）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="93" y="204" width="120" height="60" as="geometry" />
+          <mxGeometry x="91" y="238" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-11" value="auth center" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="363.91" y="33" width="116" height="47" as="geometry" />
+          <mxGeometry x="472.82000000000005" y="37" width="116" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="M8erzikhFiW7y3PfaSRm-19" value="client端认证通过后与本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
-          <mxGeometry x="522" y="145" width="198" height="100" as="geometry" />
+        <mxCell id="M8erzikhFiW7y3PfaSRm-19" value="client端认证通过后与broker本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="740" y="171" width="198" height="100" as="geometry" />
         </mxCell>
         <mxCell id="M8erzikhFiW7y3PfaSRm-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="M8erzikhFiW7y3PfaSRm-24" target="M8erzikhFiW7y3PfaSRm-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -311,8 +312,8 @@
         </mxCell>
         <mxCell id="L2M4xERiQ1L11NZPQG7T-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="182.00000000000006" y="56.5" as="sourcePoint" />
-            <mxPoint x="363.9099999999997" y="56" as="targetPoint" />
+            <mxPoint x="290.9100000000001" y="60.5" as="sourcePoint" />
+            <mxPoint x="472.8199999999997" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L2M4xERiQ1L11NZPQG7T-51" value="业务方申请topic权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-50">
@@ -329,6 +330,32 @@
         <mxCell id="L2M4xERiQ1L11NZPQG7T-53" value="业务方申请topic权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-52">
           <mxGeometry x="-0.2952" y="1" relative="1" as="geometry">
             <mxPoint x="18" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-54" value="client端认证通过后与本地读取到的acl条目进行比对，比对成功即鉴权通过，失败即鉴权不通过，拒绝请求" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-172" width="198" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-55" value="broker1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="191" width="77" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeColor=#FF0000;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-56" target="M8erzikhFiW7y3PfaSRm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-56" value="broker2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="491.82" y="191" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF0000;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-57" target="M8erzikhFiW7y3PfaSRm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-57" value="broker..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="599" y="191" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-58" value="Kafka broker 集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="479" y="259" width="99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M8erzikhFiW7y3PfaSRm-39" value="同步全量acl数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF0000;fontColor=#FF0000;" parent="1" source="L2M4xERiQ1L11NZPQG7T-55" target="M8erzikhFiW7y3PfaSRm-11" edge="1">
+          <mxGeometry x="0.6842" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
