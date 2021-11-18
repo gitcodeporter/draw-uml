@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T13:24:04.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="46M5pD8TnaKDDjxamVOJ" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T06:49:43.915Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="Cjm2l1Doj_gpVr1x0n9g" version="15.7.3" type="github">
   <diagram id="Uczro51jpl-yvH97A21P" name="第 1 页">
-    <mxGraphModel dx="1426" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1972" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,6 +413,62 @@
         </mxCell>
         <mxCell id="L2M4xERiQ1L11NZPQG7T-85" value="验证失败" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2021" y="970" width="88" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-88" target="L2M4xERiQ1L11NZPQG7T-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-95" value="调用auth center提供的接口上报topic数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-94">
+          <mxGeometry x="-0.3849" y="1" relative="1" as="geometry">
+            <mxPoint x="76" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-88" value="kafka管控台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76.45" y="1301" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-89" value="auth center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="1301" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-92" value="kafka管控台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78.45" y="1634" width="116" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-93" value="auth center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="1634" width="116" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="L2M4xERiQ1L11NZPQG7T-98" target="L2M4xERiQ1L11NZPQG7T-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-97" value="调用Kafka管控台提供的接口获取topic数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-96">
+          <mxGeometry x="-0.3849" y="1" relative="1" as="geometry">
+            <mxPoint x="76" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-98" value="kafka管控台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76.45" y="1478" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-99" value="auth center" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="543" y="1478" width="116" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="194.45000000000005" y="1673" as="sourcePoint" />
+            <mxPoint x="545" y="1673" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-101" value="调用auth center提供的接口上报增量topic数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-100">
+          <mxGeometry x="-0.3849" y="1" relative="1" as="geometry">
+            <mxPoint x="76" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="192.45000000000005" y="1750" as="sourcePoint" />
+            <mxPoint x="543" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L2M4xERiQ1L11NZPQG7T-103" value="调用Kafka管控台提供的接口获取全量topic数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="L2M4xERiQ1L11NZPQG7T-102">
+          <mxGeometry x="-0.3849" y="1" relative="1" as="geometry">
+            <mxPoint x="76" y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
