@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T07:24:27.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="sSsFNgyCuNYMyO-Cq7ZX" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T07:45:58.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yH3UiuHYlTbZFd3VOb1u" version="17.4.5" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -294,6 +294,9 @@
             <mxPoint x="4" y="2" as="sourcePoint" />
             <mxPoint x="6" y="795" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7sSOWWx9UEPNhu5fc63b-113" value="&lt;h1&gt;各服务说明：&lt;/h1&gt;&lt;p&gt;后台API：负责渠道管理、模板设置、消息类别设置、消息动作（截止时间、关联渠道、触发条件），其中触发条件比如两天内未登录、已卸载APP、区域、操作系统类别&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;logic：负责划分推送渠道、推送目标、消息重试、数据清洗&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;调度中心：负责按模板生成消息内容、消息持久化、调度ｍｐｓ&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;ｍｐｓ：负责对接三方接口、推送消息、更新推送回执&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="901" width="608" height="254" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
