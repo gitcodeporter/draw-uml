@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T08:24:58.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IdH54ensXtKGFUPDlB7A" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T10:07:45.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="m4zVQlDqnvcu2WkeQBYw" version="17.4.5" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="1822" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
             <mxPoint x="932" y="694" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7sSOWWx9UEPNhu5fc63b-63" value="持久化消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-59">
+        <mxCell id="7sSOWWx9UEPNhu5fc63b-63" value="异步持久化消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-59">
           <mxGeometry x="-0.1534" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -58,7 +58,7 @@
             <mxPoint x="985" y="698" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7sSOWWx9UEPNhu5fc63b-66" value="更新消息状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-65">
+        <mxCell id="7sSOWWx9UEPNhu5fc63b-66" value="异步更新消息状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-65">
           <mxGeometry x="-0.6637" y="1" relative="1" as="geometry">
             <mxPoint y="-19" as="offset" />
           </mxGeometry>
