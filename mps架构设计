@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T13:04:02.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="m8qahRnx7b7PsI0kev1S" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T13:08:26.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="8m9fY9PSA_mhmEYHcwVU" version="17.4.5" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="1822" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
         <mxCell id="7sSOWWx9UEPNhu5fc63b-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7sSOWWx9UEPNhu5fc63b-233" target="7sSOWWx9UEPNhu5fc63b-236">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7sSOWWx9UEPNhu5fc63b-232" value="规则设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-231">
+        <mxCell id="7sSOWWx9UEPNhu5fc63b-232" value="触达设置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sSOWWx9UEPNhu5fc63b-231">
           <mxGeometry x="-0.0611" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
