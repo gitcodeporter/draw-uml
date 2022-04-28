@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T03:45:35.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZXUdmJivj-XgLlwVqjlR" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T04:48:31.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="68C-AVfXaWTuVCiHgAes" version="17.4.6" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="2622" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -958,7 +958,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-140" value="移除tag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-140" value="组装【移除tag】数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-492" y="3007" width="87" height="38" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-148" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-141" target="U9QMK7JDe4Ey3RgiX-BF-140">
@@ -967,8 +967,64 @@
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-141" value="是否新类型tag" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-650" y="2996" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-142" value="给当前token订阅tag" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-142" target="U9QMK7JDe4Ey3RgiX-BF-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-142" value="组装【给当前token订阅tag】数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-811" y="3118.5" width="120" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-154" value="scheduler" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-657" y="3577.5" width="190" height="408" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-156" target="U9QMK7JDe4Ey3RgiX-BF-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-156" value="接到kafka数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-608" y="3638.5" width="105" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-158" target="U9QMK7JDe4Ey3RgiX-BF-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-158" value="根据模板生成消息内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-615.5" y="3767.5" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-162" value="mps服务" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;width=78;height=29;" vertex="1" parent="1">
+          <mxGeometry x="-1063" y="3577" width="190" height="415" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-166" target="U9QMK7JDe4Ey3RgiX-BF-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-166" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1023.5" y="3773" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-168" target="U9QMK7JDe4Ey3RgiX-BF-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-168" value="封装三方接口数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1023.5" y="3846" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-170" target="U9QMK7JDe4Ey3RgiX-BF-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-170" value="接收到消息数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1023.5" y="3916" width="120" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-174" value="根据mps上报的状态数据做调度决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="3909.5" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-178" value="调用失败重新入kafka队列" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-179" target="U9QMK7JDe4Ey3RgiX-BF-180">
+          <mxGeometry x="-0.1795" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-179" value="是否调用成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1003.5" y="3689" width="80" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-180" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1024.5" y="3612" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-182" value="发送至kafka队列，有mps处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-811" y="3209" width="120" height="41.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
