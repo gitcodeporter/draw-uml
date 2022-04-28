@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T04:49:05.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="um3XjDcavU_tsp-xSP4W" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-28T06:15:14.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zmPPMkb9nzxqvsn8tVv6" version="17.4.6" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="2622" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -948,7 +948,7 @@
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-149" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-139" target="U9QMK7JDe4Ey3RgiX-BF-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-139" value="是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-139" value="tag是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-791" y="2994.5" width="80" height="63" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-140" target="U9QMK7JDe4Ey3RgiX-BF-142">
@@ -973,20 +973,20 @@
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-142" value="组装【给当前token订阅tag】数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-811" y="3118.5" width="120" height="41.5" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-154" value="scheduler" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-657" y="3577.5" width="190" height="408" as="geometry" />
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-154" value="mps服务" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-657" y="3577.5" width="383" height="566.5" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-156" target="U9QMK7JDe4Ey3RgiX-BF-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-156" value="接到kafka数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-608" y="3638.5" width="105" height="35" as="geometry" />
+          <mxGeometry x="-608.5" y="3614" width="105" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-158" target="U9QMK7JDe4Ey3RgiX-BF-174">
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-158" target="U9QMK7JDe4Ey3RgiX-BF-184">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-158" value="根据模板生成消息内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-615.5" y="3767.5" width="120" height="37" as="geometry" />
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-158" value="根据参数获取pageUrl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="3678" width="120" height="34" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-162" value="mps服务" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;width=78;height=29;" vertex="1" parent="1">
           <mxGeometry x="-1063" y="3577" width="190" height="415" as="geometry" />
@@ -1007,10 +1007,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-170" value="接收到消息数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1023.5" y="3916" width="120" height="58" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-174" value="根据mps上报的状态数据做调度决策" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="3909.5" width="120" height="56" as="geometry" />
+          <mxGeometry x="-1023.5" y="3916" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-178" value="调用失败重新入kafka队列" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-179" target="U9QMK7JDe4Ey3RgiX-BF-180">
           <mxGeometry x="-0.1795" y="2" relative="1" as="geometry">
@@ -1025,6 +1022,39 @@
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-182" value="发送至kafka队列，由mps处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-811" y="3209" width="120" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-184" target="U9QMK7JDe4Ey3RgiX-BF-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-184" value="封装三方接口数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="3743" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-186" target="U9QMK7JDe4Ey3RgiX-BF-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-186" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="3810" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-192" value="调用失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-188" target="U9QMK7JDe4Ey3RgiX-BF-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-193" value="调用成功" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-188" target="U9QMK7JDe4Ey3RgiX-BF-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-188" value="是否调用成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-596" y="3874" width="80" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-190" target="U9QMK7JDe4Ey3RgiX-BF-194">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-190" value="kafka队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="3976" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-191" value="beanstalk延迟队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="3885" width="105" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-194" value="交给logic服务异步更新数据表状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="4043" width="120" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
