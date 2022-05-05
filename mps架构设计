@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-05T03:18:17.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MVNrLN0B1KsG5GreOvfm" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-05T09:20:46.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="bgqL3iqehNoKbiteWOKp" version="17.4.6" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="2622" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -965,51 +965,16 @@
           <mxGeometry x="-811" y="3118.5" width="120" height="41.5" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-154" value="mps服务" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-657" y="3577.5" width="360" height="519.5" as="geometry" />
+          <mxGeometry x="-744" y="3588" width="567" height="514" as="geometry" />
         </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-156" target="U9QMK7JDe4Ey3RgiX-BF-158">
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-233" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-156" target="U9QMK7JDe4Ey3RgiX-BF-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-234" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-156" target="U9QMK7JDe4Ey3RgiX-BF-232">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-156" value="接到kafka数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-608.5" y="3614" width="105" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-158" target="U9QMK7JDe4Ey3RgiX-BF-184">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-158" value="根据参数获取pageUrl，&lt;br&gt;用于点击消息跳转位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-629" y="3676" width="146" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-162" value="mps服务" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;width=78;height=29;" vertex="1" parent="1">
-          <mxGeometry x="-1063" y="3577" width="190" height="415" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-166" target="U9QMK7JDe4Ey3RgiX-BF-179">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-166" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1023.5" y="3773" width="120" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-168" target="U9QMK7JDe4Ey3RgiX-BF-166">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-168" value="封装三方接口数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1023.5" y="3846" width="120" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-170" target="U9QMK7JDe4Ey3RgiX-BF-168">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-170" value="接收到消息数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1023.5" y="3916" width="120" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-178" value="调用失败重新入kafka队列" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-179" target="U9QMK7JDe4Ey3RgiX-BF-180">
-          <mxGeometry x="-0.1795" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-179" value="是否调用成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1003.5" y="3689" width="80" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-180" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1024.5" y="3612" width="120" height="39" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-182" value="发送至kafka队列，由mps处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-811" y="3209" width="120" height="41.5" as="geometry" />
@@ -1018,13 +983,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-184" value="封装三方接口数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="3743" width="120" height="35" as="geometry" />
+          <mxGeometry x="-616" y="3748" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-186" target="U9QMK7JDe4Ey3RgiX-BF-188">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-186" value="调用三方接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="3810" width="120" height="32" as="geometry" />
+          <mxGeometry x="-616" y="3815" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-192" value="调用失败" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-188" target="U9QMK7JDe4Ey3RgiX-BF-191">
           <mxGeometry relative="1" as="geometry" />
@@ -1033,13 +998,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-188" value="是否调用成功" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-596" y="3874" width="80" height="54" as="geometry" />
+          <mxGeometry x="-596" y="3879" width="80" height="54" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-190" target="U9QMK7JDe4Ey3RgiX-BF-194">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-190" value="kafka队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="3982" width="120" height="32" as="geometry" />
+          <mxGeometry x="-616" y="3987" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-191" target="U9QMK7JDe4Ey3RgiX-BF-186">
           <mxGeometry relative="1" as="geometry" />
@@ -1050,10 +1015,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-191" value="beanstalk延迟队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-425" y="3885" width="105" height="32" as="geometry" />
+          <mxGeometry x="-425" y="3890" width="105" height="32" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-194" value="交给logic服务异步更新数据表状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="4049" width="120" height="32" as="geometry" />
+          <mxGeometry x="-616" y="4054" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-201" value="mps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2100" y="236" width="111" height="51" as="geometry" />
@@ -1134,6 +1099,24 @@
         </mxCell>
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-221" value="群组人员是否&lt;br&gt;大于设定阈值&lt;br&gt;（比如1w人）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-943" y="1979" width="127" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-237" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-230" target="U9QMK7JDe4Ey3RgiX-BF-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-230" value="根据参数获取pageUrl，&lt;br&gt;用于点击消息跳转位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-343" y="3686.5" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-231" target="U9QMK7JDe4Ey3RgiX-BF-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-231" value="订阅topic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-723" y="3689" width="94" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="U9QMK7JDe4Ey3RgiX-BF-232" target="U9QMK7JDe4Ey3RgiX-BF-230">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-232" value="push消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-478" y="3689" width="89" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
