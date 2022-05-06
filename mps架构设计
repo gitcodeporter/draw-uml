@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T08:36:03.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="X3rMuR79gi3i3SeOzG5R" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T08:47:01.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="U5hn1ya7vL1b6rdkG_xT" version="17.4.6" type="github">
   <diagram id="ur0bAnToivPg52EI1VXA" name="Page-1">
     <mxGraphModel dx="2622" dy="1194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -431,19 +431,6 @@
         <mxCell id="U9QMK7JDe4Ey3RgiX-BF-107" value="重试消息入延迟队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U9QMK7JDe4Ey3RgiX-BF-106">
           <mxGeometry x="0.3457" relative="1" as="geometry">
             <mxPoint x="28" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7sSOWWx9UEPNhu5fc63b-227" target="7sSOWWx9UEPNhu5fc63b-246">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="947" y="1974" />
-              <mxPoint x="578" y="1974" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="U9QMK7JDe4Ey3RgiX-BF-119" value="更新推送回执，交给logic处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U9QMK7JDe4Ey3RgiX-BF-118">
-          <mxGeometry x="-0.3392" relative="1" as="geometry">
-            <mxPoint x="-104" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7sSOWWx9UEPNhu5fc63b-227" value="MPS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
