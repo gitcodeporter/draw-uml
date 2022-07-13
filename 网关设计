@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T03:32:00.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="NUG2xU_mTZV17pWyx7aX" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-13T06:22:55.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="if6YDiVqkQ4SBwRFh_OB" version="19.0.3" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
-    <mxGraphModel dx="2674" dy="828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2222" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -409,10 +409,10 @@
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-174" value="Gw Cluster" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;fontStyle=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1946" y="1041" width="467" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;startArrow=none;startFill=0;strokeColor=#FF0000;" edge="1" parent="1" source="0uYLH7dPMmhdsm0LaMHC-175" target="0uYLH7dPMmhdsm0LaMHC-174">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;startArrow=none;startFill=0;strokeColor=#330000;" edge="1" parent="1" source="0uYLH7dPMmhdsm0LaMHC-175" target="0uYLH7dPMmhdsm0LaMHC-174">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-217" value="下发指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="0uYLH7dPMmhdsm0LaMHC-216">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-217" value="下发指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="0uYLH7dPMmhdsm0LaMHC-216">
           <mxGeometry x="0.1795" y="1" relative="1" as="geometry">
             <mxPoint x="8" as="offset" />
           </mxGeometry>
@@ -518,14 +518,25 @@
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-218" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;strokeColor=#FF0000;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2635" y="733" as="sourcePoint" />
-            <mxPoint x="2635" y="895" as="targetPoint" />
+            <mxPoint x="2556" y="733" as="sourcePoint" />
+            <mxPoint x="2556" y="895" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-219" value="手动绑定路由关系&lt;br&gt;&lt;br&gt;或&lt;br&gt;&lt;br&gt;下发运维指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;labelBackgroundColor=default;" vertex="1" connectable="0" parent="0uYLH7dPMmhdsm0LaMHC-218">
           <mxGeometry x="-0.3026" y="3" relative="1" as="geometry">
             <mxPoint x="-4" y="24" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.926;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#330000;startArrow=classic;startFill=1;strokeColor=#FF0000;" edge="1" parent="1" source="0uYLH7dPMmhdsm0LaMHC-225" target="0uYLH7dPMmhdsm0LaMHC-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-227" value="request / response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="0uYLH7dPMmhdsm0LaMHC-226">
+          <mxGeometry x="-0.2777" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-225" value="web网关平台" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="2646" y="728.5" width="92" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
