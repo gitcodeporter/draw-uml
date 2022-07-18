@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T06:14:13.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="K6eNhunhs3ROOD_vOO4M" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T06:54:24.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7KqSYQvF_KdOK84eHhL-" version="20.1.1" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
     <mxGraphModel dx="2222" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -640,19 +640,19 @@
           <mxGeometry x="2331" y="713.5" width="81" height="38" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-1" value="Gw Admin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2223" y="1136" width="100" height="486" as="geometry" />
+          <mxGeometry x="2223" y="1136" width="100" height="990" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-2" value="云帆系统 (K8S)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2616" y="1136" width="100" height="486" as="geometry" />
+          <mxGeometry x="2616" y="1136" width="100" height="991" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-3" value="Mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="3009" y="1136" width="100" height="486" as="geometry" />
+          <mxGeometry x="3009" y="1136" width="100" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-5" value="NLB流量走向" style="shape=umlFrame;whiteSpace=wrap;html=1;width=97;height=27;" vertex="1" parent="1">
-          <mxGeometry x="2158" y="1204" width="981" height="327" as="geometry" />
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-5" value="NLB流量走向" style="shape=umlFrame;whiteSpace=wrap;html=1;width=97;height=27;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2158" y="1204" width="981" height="404" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="2268" y="1225" width="10" height="204" as="geometry" />
+          <mxGeometry x="2268" y="1225" width="10" height="258" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="2661" y="1225" width="10" height="113" as="geometry" />
@@ -691,36 +691,194 @@
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-13" value="3、解析数据，取出host+svc+path+port的对应关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-12">
           <mxGeometry x="0.2661" y="1" relative="1" as="geometry">
-            <mxPoint x="116" y="14" as="offset" />
+            <mxPoint x="121" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="ZRW4oi5IqOjD-qQWIIS8-16">
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-14" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2279" y="1407" as="sourcePoint" />
-            <mxPoint x="2657" y="1406.973" as="targetPoint" />
+            <mxPoint x="2279" y="1425" as="sourcePoint" />
+            <mxPoint x="3054" y="1425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-15" value="4、保存至路由表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-14">
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-15" value="5、返回项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-14">
           <mxGeometry x="-0.6878" relative="1" as="geometry">
             <mxPoint x="112" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="3054" y="1386" width="10" height="54" as="geometry" />
+          <mxGeometry x="3054" y="1386" width="10" height="98" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="2268" y="1452" width="10" height="53" as="geometry" />
+          <mxGeometry x="2268" y="1507" width="10" height="79" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="2662" y="1452" width="10" height="56" as="geometry" />
+          <mxGeometry x="2662" y="1509" width="10" height="34" as="geometry" />
         </mxCell>
         <mxCell id="ZRW4oi5IqOjD-qQWIIS8-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2281" y="1478" as="sourcePoint" />
-            <mxPoint x="2659" y="1477.973" as="targetPoint" />
+            <mxPoint x="2281" y="1527" as="sourcePoint" />
+            <mxPoint x="2659" y="1526.973" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-20" value="5、监听ingress增量资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-19">
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-20" value="7、监听ingress资源变化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-19">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-21" value="ALB流量走向" style="shape=umlFrame;whiteSpace=wrap;html=1;width=97;height=27;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2157" y="1653" width="981" height="419" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2267" y="1674" width="10" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1674" width="10" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1687" as="sourcePoint" />
+            <mxPoint x="2658" y="1686.973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-25" value="1、服务启动后首次同步所有svc资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-24">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.1;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1721" as="sourcePoint" />
+            <mxPoint x="2658" y="1720.973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-27" value="2、返回svc列表数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-26">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;entryX=1.1;entryY=0.544;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2276" y="1814" as="sourcePoint" />
+            <mxPoint x="2278" y="1755.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2304" y="1814" />
+              <mxPoint x="2304" y="1755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-29" value="3、解析数据，取出svc+port的对应关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-28">
+          <mxGeometry x="0.2661" y="1" relative="1" as="geometry">
+            <mxPoint x="89" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-30" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1844" as="sourcePoint" />
+            <mxPoint x="3053" y="1844" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-48" value="4、根据namespace查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-30">
+          <mxGeometry x="-0.5446" y="1" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="3053" y="1835" width="10" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2267" y="1964" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2661" y="1969" width="10" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.1;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1988" as="sourcePoint" />
+            <mxPoint x="2658" y="1987.973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-36" value="7、监听svc资源变化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-35">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2279" y="1393" as="sourcePoint" />
+            <mxPoint x="3054" y="1393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-41" value="4、根据namespace查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-40">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2280" y="1460" as="sourcePoint" />
+            <mxPoint x="3055" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-43" value="6、保存数据至路由表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-42">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="3053" y="1546" width="10" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2279" y="1563" as="sourcePoint" />
+            <mxPoint x="3054" y="1563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-46" value="8、按照3+4+5+6步骤调整路由表数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-45">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-49" value="" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2276" y="1875" as="sourcePoint" />
+            <mxPoint x="3051" y="1875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-50" value="5、返回项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-49">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-51" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="ZRW4oi5IqOjD-qQWIIS8-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2278" y="1910" as="sourcePoint" />
+            <mxPoint x="3053" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-47" value="备注：从svc资源取不到对应的host，需要手动绑定host和svc的关系，svc数据先保存下来" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2531" y="1896" width="489" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="ZRW4oi5IqOjD-qQWIIS8-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2278" y="1910" as="sourcePoint" />
+            <mxPoint x="3053" y="1910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-54" value="6、保存数据至路由表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-53">
+          <mxGeometry x="-0.6878" relative="1" as="geometry">
+            <mxPoint x="112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="3053" y="2011" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2279" y="2028" as="sourcePoint" />
+            <mxPoint x="3054" y="2028" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-57" value="8、按照3+4+5+6步骤调整路由表数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-56">
           <mxGeometry x="-0.6878" relative="1" as="geometry">
             <mxPoint x="112" as="offset" />
           </mxGeometry>
