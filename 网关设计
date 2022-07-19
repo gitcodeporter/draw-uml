@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T03:14:22.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="auDDvnzdhlHggbVrPfq8" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T08:55:49.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="f8gxBUiBTgMiETVEBmtA" version="20.1.1" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
     <mxGraphModel dx="2222" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -783,7 +783,7 @@
             <mxPoint x="3053" y="1844" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-48" value="4、根据namespace查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-30">
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-48" value="4、根据name+namespace从t_k8s_info表查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-30">
           <mxGeometry x="-0.5446" y="1" relative="1" as="geometry">
             <mxPoint x="30" as="offset" />
           </mxGeometry>
@@ -814,7 +814,7 @@
             <mxPoint x="3054" y="1393" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-41" value="4、根据namespace查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-40">
+        <mxCell id="ZRW4oi5IqOjD-qQWIIS8-41" value="4、根据name+namespace从t_k8s_info表查询项目ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZRW4oi5IqOjD-qQWIIS8-40">
           <mxGeometry x="-0.6878" relative="1" as="geometry">
             <mxPoint x="112" as="offset" />
           </mxGeometry>
