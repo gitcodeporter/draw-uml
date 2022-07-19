@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T08:55:49.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="f8gxBUiBTgMiETVEBmtA" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T09:28:14.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="M_a-DDtG4IdVZUHrQ_73" version="20.1.1" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
     <mxGraphModel dx="2222" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,10 +13,10 @@
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-231" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=#FF0000;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="2149" y="7" width="1258" height="1037" as="geometry" />
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-306" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.802;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;startArrow=none;startFill=0;strokeColor=#330000;exitPerimeter=0;" parent="1" source="0uYLH7dPMmhdsm0LaMHC-305" target="0uYLH7dPMmhdsm0LaMHC-212" edge="1">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-306" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.802;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;startArrow=classic;startFill=1;strokeColor=#330000;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="0uYLH7dPMmhdsm0LaMHC-305" target="0uYLH7dPMmhdsm0LaMHC-212" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-307" value="定时同步&lt;br&gt;路由数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" parent="0uYLH7dPMmhdsm0LaMHC-306" vertex="1" connectable="0">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-307" value="同步&lt;br&gt;路由数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" parent="0uYLH7dPMmhdsm0LaMHC-306" vertex="1" connectable="0">
           <mxGeometry x="-0.4789" y="1" relative="1" as="geometry">
             <mxPoint x="27" y="1" as="offset" />
           </mxGeometry>
@@ -452,9 +452,9 @@
             <mxPoint x="2718" y="519" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-217" value="下发指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="0uYLH7dPMmhdsm0LaMHC-216" vertex="1" connectable="0">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-217" value="服务变化&lt;br&gt;&lt;br&gt;下发同步路由通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;labelBackgroundColor=none;" parent="0uYLH7dPMmhdsm0LaMHC-216" vertex="1" connectable="0">
           <mxGeometry x="0.1795" y="1" relative="1" as="geometry">
-            <mxPoint x="8" as="offset" />
+            <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#FF0000;startArrow=none;startFill=0;strokeColor=#FF0000;" parent="1" source="0uYLH7dPMmhdsm0LaMHC-175" target="0uYLH7dPMmhdsm0LaMHC-212" edge="1">
@@ -556,19 +556,21 @@
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-212" value="路由表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="2846.5" y="685.5" width="210" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-218" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;strokeColor=#FF0000;" parent="1" edge="1">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-218" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;strokeColor=#FF0000;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1" source="0uYLH7dPMmhdsm0LaMHC-225">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2870" y="81" as="sourcePoint" />
             <mxPoint x="2870" y="243" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-219" value="手动绑定路由关系&lt;br&gt;&lt;br&gt;或&lt;br&gt;&lt;br&gt;下发运维指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;labelBackgroundColor=default;" parent="0uYLH7dPMmhdsm0LaMHC-218" vertex="1" connectable="0">
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-219" value="手动绑定路由关系" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;labelBackgroundColor=default;" parent="0uYLH7dPMmhdsm0LaMHC-218" vertex="1" connectable="0">
           <mxGeometry x="-0.3026" y="3" relative="1" as="geometry">
-            <mxPoint x="-4" y="24" as="offset" />
+            <mxPoint x="-2" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0uYLH7dPMmhdsm0LaMHC-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.926;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#330000;startArrow=classic;startFill=1;strokeColor=#FF0000;" parent="1" source="0uYLH7dPMmhdsm0LaMHC-225" target="0uYLH7dPMmhdsm0LaMHC-169" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0uYLH7dPMmhdsm0LaMHC-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.926;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#330000;startArrow=classic;startFill=1;strokeColor=#FF0000;" parent="1" target="0uYLH7dPMmhdsm0LaMHC-169" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3006" y="136" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-227" value="request / response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="0uYLH7dPMmhdsm0LaMHC-226" vertex="1" connectable="0">
           <mxGeometry x="-0.2777" y="-3" relative="1" as="geometry">
@@ -576,7 +578,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-225" value="web网关平台" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="2960" y="76.5" width="92" height="55" as="geometry" />
+          <mxGeometry x="2809" y="76.5" width="243" height="55" as="geometry" />
         </mxCell>
         <mxCell id="0uYLH7dPMmhdsm0LaMHC-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;startArrow=none;startFill=0;strokeColor=#330000;exitX=0.063;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0uYLH7dPMmhdsm0LaMHC-232" edge="1">
           <mxGeometry relative="1" as="geometry">
