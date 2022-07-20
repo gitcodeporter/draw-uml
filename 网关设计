@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T06:32:12.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="TmBCHAQLP25_UwybKIg0" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T08:07:12.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="flnOt0UwS8hW9kJZCTrB" version="20.1.1" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
-    <mxGraphModel dx="2622" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3022" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1045,17 +1045,17 @@
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-1" target="ITUqNpAwB-DoI-gh8LrD-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-558" y="1578" as="sourcePoint" />
+            <mxPoint x="-1169" y="1729" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-1" value="监听请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-641" y="1548" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1252" y="1699" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-2" target="ITUqNpAwB-DoI-gh8LrD-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-2" value="解析protocol+host+path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-456" y="1548" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1067" y="1699" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-3" target="ITUqNpAwB-DoI-gh8LrD-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1066,7 +1066,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-3" value="路由缓存列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-274" y="1363" width="120" height="60" as="geometry" />
+          <mxGeometry x="-885" y="1514" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-4" target="ITUqNpAwB-DoI-gh8LrD-3">
           <mxGeometry relative="1" as="geometry" />
@@ -1077,12 +1077,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-4" value="路由选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-274" y="1548" width="120" height="60" as="geometry" />
+          <mxGeometry x="-885" y="1699" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ITUqNpAwB-DoI-gh8LrD-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-565" y="1393" as="sourcePoint" />
-            <mxPoint x="-515" y="1365" as="targetPoint" />
+            <mxPoint x="-1176" y="1544" as="sourcePoint" />
+            <mxPoint x="-1126" y="1516" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-10" value="服务启动后同步路由表缓存本地&lt;br&gt;&amp;amp;&lt;br&gt;接收Gw Admin通知动态更新" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-9">
@@ -1092,8 +1092,8 @@
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-842" y="1581" as="sourcePoint" />
-            <mxPoint x="-640" y="1581" as="targetPoint" />
+            <mxPoint x="-1453" y="1732" as="sourcePoint" />
+            <mxPoint x="-1251" y="1732" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-12" value="*.dreame.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-11">
@@ -1102,16 +1102,174 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-154" y="1530" width="175" height="100" as="geometry" />
+          <mxGeometry x="-765" y="1626" width="201" height="213" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-18" value="按protocol区分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1565" width="60" height="30" as="geometry" />
+          <mxGeometry x="-757" y="1706" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ITUqNpAwB-DoI-gh8LrD-19" value="HTTP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-55" y="1503" width="60" height="30" as="geometry" />
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-19" value="HTTP&lt;br&gt;&lt;br&gt;（判断header）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-689" y="1613" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-20" value="TCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-51" y="1603" width="60" height="30" as="geometry" />
+          <mxGeometry x="-662" y="1812" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-21" target="ITUqNpAwB-DoI-gh8LrD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-21" value="前置filter逻辑" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1809" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-22" target="ITUqNpAwB-DoI-gh8LrD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-31" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-30">
+          <mxGeometry x="0.2737" y="3" relative="1" as="geometry">
+            <mxPoint x="21" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-22" value="业务 - svc" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-98" y="1809" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-24" target="ITUqNpAwB-DoI-gh8LrD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-29" value="将请求数据复制给目标服" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-28">
+          <mxGeometry x="-0.6818" y="1" relative="1" as="geometry">
+            <mxPoint x="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-24" target="ITUqNpAwB-DoI-gh8LrD-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-344" y="1958" />
+              <mxPoint x="-1192" y="1958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-33" value="响应 - 将返回数据复制给请求端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-32">
+          <mxGeometry x="0.1002" y="-3" relative="1" as="geometry">
+            <mxPoint x="55" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-24" value="创建代理客户端&lt;br&gt;（长连接）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-401" y="1809" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1521" width="189" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-35" value="" style="endArrow=none;html=1;rounded=0;fontStyle=1;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-566" y="1626" as="sourcePoint" />
+            <mxPoint x="-375" y="1626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-36" value="Connection：upgrade&lt;br&gt;&lt;br&gt;Upgrade：websocket" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="1504" width="169" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-37" value="HTTP2&lt;br&gt;&lt;br&gt;Content-Type：application/grpc" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-565" y="1608" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-38" target="ITUqNpAwB-DoI-gh8LrD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-38" value="Websocket协议" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-376" y="1494" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-39" target="ITUqNpAwB-DoI-gh8LrD-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-39" value="Grpct协议" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-376" y="1601" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-40" target="ITUqNpAwB-DoI-gh8LrD-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-40" value="HTTP协议" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-376" y="1702" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-41" target="ITUqNpAwB-DoI-gh8LrD-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-41" value="前置filter逻辑" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="1490" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-42" target="ITUqNpAwB-DoI-gh8LrD-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-42" value="前置filter逻辑" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="1597" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-43" target="ITUqNpAwB-DoI-gh8LrD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-43" value="前置filter逻辑" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-212" y="1698" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-47" target="ITUqNpAwB-DoI-gh8LrD-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-53" value="请求目标服" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-52">
+          <mxGeometry x="-0.2762" y="1" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-47" value="创建反向代理" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-21" y="1698" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;strokeWidth=1;dashed=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-48" target="ITUqNpAwB-DoI-gh8LrD-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-55" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-54">
+          <mxGeometry x="0.2952" y="5" relative="1" as="geometry">
+            <mxPoint x="14" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-48" value="业务 - svc" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1698" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-59" target="ITUqNpAwB-DoI-gh8LrD-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-58" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-57">
+          <mxGeometry x="0.2737" y="3" relative="1" as="geometry">
+            <mxPoint x="21" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-59" value="业务 - svc" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1597" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-62" target="ITUqNpAwB-DoI-gh8LrD-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-61" value="将请求数据复制给目标服" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-60">
+          <mxGeometry x="-0.6818" y="1" relative="1" as="geometry">
+            <mxPoint x="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-62" value="创建代理客户端&lt;br&gt;（长连接）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="1597" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-66" target="ITUqNpAwB-DoI-gh8LrD-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-65" value="返回数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-64">
+          <mxGeometry x="0.2737" y="3" relative="1" as="geometry">
+            <mxPoint x="21" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-66" value="业务 - svc" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1490" width="92" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ITUqNpAwB-DoI-gh8LrD-69" target="ITUqNpAwB-DoI-gh8LrD-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-68" value="将请求数据复制给目标服" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ITUqNpAwB-DoI-gh8LrD-67">
+          <mxGeometry x="-0.6818" y="1" relative="1" as="geometry">
+            <mxPoint x="62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-69" value="创建代理客户端&lt;br&gt;（长连接）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-43" y="1490" width="113" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
