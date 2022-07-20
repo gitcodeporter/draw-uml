@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T08:07:12.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="flnOt0UwS8hW9kJZCTrB" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T08:10:06.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="62kTbMULh9gv2yAvfC_G" version="20.1.1" type="github">
   <diagram id="jpUC4dQEp-g4sc0CmAPI" name="Page-1">
     <mxGraphModel dx="3022" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1270,6 +1270,9 @@
         </mxCell>
         <mxCell id="ITUqNpAwB-DoI-gh8LrD-69" value="创建代理客户端&lt;br&gt;（长连接）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="-43" y="1490" width="113" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ITUqNpAwB-DoI-gh8LrD-71" value="HTTP1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-563" y="1699" width="185" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
